@@ -167,7 +167,7 @@ class Covid19Adapter(LogicAdapter):
                                     
                    
         else:
-            response_statement6 = Statement(text='Oops, You can look up the correct country name syntax to find information about the countries:{} '.format("https://formatofcountries.blogspot.com/2021/10/blog-post.html"))           
+            response_statement6 = Statement(text='Oops, You can look up the correct country name syntax to find information about the countries: {} '.format("https://formatofcountries.blogspot.com/2021/10/blog-post.html"))           
             answer.append(str(response_statement6))
         response_statement = Statement(text='{}'.format(answer))
         response_statement.confidence = confidence
